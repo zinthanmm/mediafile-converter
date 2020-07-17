@@ -4,7 +4,7 @@ package mediafileconverter;
 import java.io.File;
 import it.sauronsoftware.jave.*;
 
-public class Config {
+public class config {
     
     //mp4Tomp3
     public static void mp4Tomp3(File source, File output) {
