@@ -11,7 +11,7 @@ public class mp4Tomp3 {
         
         System.err.println("Converting Started........");
     
-        File mp3 = new File("C:\\Users\\ZNR\\Desktop\\media-converted\\mp4Tomp3-converted\\test.mp3");
+        File mp3 = new File("C:\\Users\\ZNR\\Desktop\\MediaConverter\\media-converted\\mp4Tomp3-converted\\test.mp3");
         AudioAttributes audio = new AudioAttributes();
         audio.setCodec("libmp3lame");
         audio.setBitRate(new Integer(128000));
