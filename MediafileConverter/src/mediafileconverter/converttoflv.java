@@ -11,7 +11,7 @@ package mediafileconverter;
  */
 
 import java.io.File;
-import it.sauronsoftware.*;
+import it.sauronsoftware.jave.*;
 
 public class converttoflv {
 
