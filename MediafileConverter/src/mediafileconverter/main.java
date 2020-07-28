@@ -30,7 +30,7 @@ public class main {
 
             File target = new File(path.getAbsolutePath() + "\\" + removeExtension[0] + ".mp3");
 
-            config.mp4Tomp3(file, target);
+            converttomp4.mp4Tomp3(file, target);
 
             file.deleteOnExit();
             
@@ -49,7 +49,7 @@ public class main {
 
             File target = new File(path.getAbsolutePath() + "\\" + removeExtension[0] + ".flv");
 
-            config.mp4Toflv(file, target);
+            converttoflv.mp4Toflv(file, target);
 
             file.deleteOnExit();
             
@@ -68,7 +68,7 @@ public class main {
 
             File target = new File(path.getAbsolutePath() + "\\" + removeExtension[0] + ".mkv");
 
-            config.mp4Tomkv(file, target);
+            converttomkv.mp4Tomkv(file, target);
 
             file.deleteOnExit();
             
