@@ -13,7 +13,7 @@ package mediafileconverter;
 import java.io.File;
 import it.sauronsoftware.jave.*;
 
-public class converttomp4 {
+public class converttomp3 {
 
    //mp4Tomp3
     public static void mp4Tomp3(File source, File output) {

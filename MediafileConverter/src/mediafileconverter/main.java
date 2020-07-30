@@ -30,7 +30,7 @@ public class main {
 
             File target = new File(path.getAbsolutePath() + "\\" + removeExtension[0] + ".mp3");
 
-            converttomp4.mp4Tomp3(file, target);
+            converttomp3.mp4Tomp3(file, target);
 
             file.deleteOnExit();
             
